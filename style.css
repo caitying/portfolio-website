@@ -1,0 +1,125 @@
+html {
+    background-color: #fcf6e5;
+}
+
+.topNav,
+header {
+    background-color: #cce8cc;
+    width: 100%;
+    margin: -1 auto;
+}
+
+.topNav {
+    overflow: hidden;
+    font-family: Lato;
+    letter-spacing: 3px;
+    color: #373741;
+}
+
+header {
+    font-size: 50px;
+    text-align: center;
+    font-family: LeagueSpartan;
+    letter-spacing: 6px;
+    color: #373741;
+    padding-top: 25px;
+}
+
+@font-face {
+    font-family: LeagueSpartan;
+    src: url(Fonts/LeagueSpartan-Bold.otf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(Fonts/Lato-Regular.ttf);
+}
+
+
+/***   NAVIGATION  ***/
+
+
+/* Links inside the navbar */
+
+.topNav {
+    display: flex;
+    justify-content: center;
+}
+
+.topNav a {
+    float: left;
+    font-size: 16px;
+    color: #373741;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* The dropdown container */
+
+.ProjectMenu,
+.AboutMenu {
+    float: left;
+    overflow: hidden;
+}
+
+
+/* Dropdown button */
+
+.ProjectMenu .project,
+.AboutMenu .about {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #373741;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: Lato;
+    letter-spacing: 3px;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+
+/* Dropdown content (hidden by default) */
+
+.projectdropdown,
+.aboutdropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.projectdropdown a,
+.aboutdropdown a {
+    float: none;
+    color: #373741;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+/* Add a grey background color to dropdown links on hover */
+
+.projectdropdown a:hover,
+.aboutdropdown a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.ProjectMenu:hover .projectdropdown,
+.AboutMenu:hover .aboutdropdown {
+    display: block;
+}
