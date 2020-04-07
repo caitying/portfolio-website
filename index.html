@@ -1,37 +1,228 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
     <meta name="author" content="Caitlin Ying">
     <title>Caitlin Ying</title>
     <link href="style.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
-<header>
-    CAITLIN YING
-</header>
-
 <body>
-    <div class="topNav">
-        <a class="active" href="index.html">Home</a>
-        <div class="AboutMenu">
-            <button class="about" target="_self" onclick="document.location='About/about.html'">About</button>
-            <div class="aboutdropdown">
-                <a href="About/resume.html">Resume</a>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar -->
+        <div class="border-right" id="sidebar-wrapper">
+            <div class="sidebar-heading">
+                <h2>CAITLIN YING</h2>
+                <img class="d-flex justify-content-center" src="img/cait.png" width="200px">
+            </div>
+            <div class="list-group list-group-flush">
+                <a href="img/resume.pdf" download="CaitlinYing.pdf" id="thing" class="list-group-item list-group-item-action">Resume</a>
+                <a href="https://calendly.com/caitying/meeting" id="thing" class="list-group-item list-group-item-action">Schedule a Meeting</a>
+                <p class="oof">Find me here:</p>
+                <div class="find">
+                    <a href="mailto:caitlinneveying@gmail.com"><img id="email" src="img/email.png" width="40px"></a>
+                    <a href="https://github.com/caitying"><img src="img/github.png" width="40px"></a>
+                    <a href="https://www.linkedin.com/in/caitlinying/"><img src="img/linkedin.png" width="40px"></a>
+                    <a href="https://www.wattpad.com/user/nevewong"><img src="img/wattpad.png" width="40px"></a>
+                </div>
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+
+            <div class="container-fluid">
+                <h2 class="mt-4">SUMMARY/ABOUT</h2>
+                <p>
+                    I am a creative software developer with a strong background in project management.  I have had the opportunity to work in a retail environment for over 2 years, and have subsequently dedicated my time to helping my colleagues reach their full potential
+                    as Vice President of Student Affairs of the Queen's Computing Students' Association.
+                </p>
+                </br>
+                <h2 class="mt-4">EDUCATION</h2>
+                <div class="row" id="gall">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="card" style="width: 100%; height: 90%; margin-top: 20px; margin-bottom: 20px;">
+                            <div class="card-body">
+                                <div id="picture">
+                                    <img src="img/QueensLogo.png" alt="Queen's Univeristy Logo" class="float-left" width="130px">
+                                    <h4>QUEEN'S UNIVERSITY</h4><em>Bachelor of Computing (Specialization in Software Design) | SEPT 2017 - present</em>
+                                    <p class="card-text">
+                                        Highlights:
+                                        <ul>
+                                            <li><a href="https://www.facebook.com/FYNIRS/?ref=br_rs">FYNIRS</a> (First Years Not In Residence) Executive '20</li>
+                                            <li>Computing Orientation Leader (2018)</li>
+                                            <li>Equity Relations Officer - Queen's Computing Students' Association</li>
+                                            <ul>
+                                                <li>Won Volunteer of the Year (October 2018)</li>
+                                            </ul>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br></br>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="card" style="width: 100%;margin-top: 20px; margin-bottom: 20px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h4>THORNHILL SECONDARY SCHOOL</h4><em>OSSD | SEPT 2013 - JUN 2017</em>
+                                    </br>
+
+                                    Highlights:
+                                    <ul>
+                                        <li>Club Executive of TSS Rainbow Alliance</li>
+                                        <ul>
+                                            <li>Attended 2
+                                                <a href="https://twitter.com/yrdsb_speakout?lang=en">YRDSB SPEAKOut</a> Conferences as executive.
+                                            </li>
+                                            <li>Created educational program for teachers and students involving LGBTQIA+ issues at school.</li>
+                                        </ul>
+                                        <li>Thornhill Secondary School Student Ambassador of <a href="https://www.livewelltakeaction.com/">Live Well, Take Action</a>.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </br>
+                <h2 class="mt-4">TECHNICAL SKILLS</h2>
+                <div class="skills">
+                    <a href="https://developer.android.com/studio"><img src="img/androidstudio.png" alt="Android Studio" style="width:130px"></a>
+                    <a href="https://git-scm.com/"><img src="img/git.png" alt="Git" style="width:130px"></a>
+                    <img src="img/html.png" alt="HTML5" style="height:130px">
+                    <img src="img/css.png" alt="CSS3" style="height:130px">
+                    <img src="img/creativecloud.png" alt="Adobe Creative Cloud" style="height:130px;">
+                    <img src="img/java.png" alt="Java" style="height:130px"></a>
+                    <img src="img/python.png" alt="Python" style="width:130px"></a>
+                </div>
+                </br>
+                <h2 class="mt-4">PROJECTS</h2>
+                <div class="row" id="gall">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="card" style="width: 100%; height: 90%; margin-top: 20px; margin-bottom: 20px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h4>COVID-TRACKER.CA | MARCH 2020</h4>A website that tracks how COVID-19 spread across different regions of Ontario. As a part of this project, I did the following:
+                                    <ul>
+                                        <li>developed the mobile optimized version of the site</li>
+                                        <li>collaborated with a group of individuals to ensure the best possible designs</li>
+                                    </ul>
+                                </p>
+                                <a href="https://covid-tracker.ca/" class="btn">Click to visit website</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="card" style="width: 100%; height: 90%; margin-top: 20px; margin-bottom: 20px;">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h4>CAITYING.COM</h4>I've created this website to exhibit my knowledge of HTML, CSS, JavaScript, and Bootstrap.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br></br>
+                <h2 class="mt-4">WORK EXPERIENCE</h2>
+                <div class="row" id="gall">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="card" style="width: 100%; height: 90%; margin-top: 20px; margin-bottom: 20px;">
+                            <div class="card-body">
+                                <div id="picture">
+                                    <img src="img/logo.png" alt="Computing Students' Association Logo" class="float-left" width="130px">
+                                    <h4>QUEEN'S COMPUTING STUDENTS' ASSOCIATION</h4><em>Vice-President of Student Affairs | OCT 2019 - present</em>
+                                </div>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Represented the Queen's School of Computing at all undergraduate assemblies.</li>
+                                        <li>Oversaw Academics, Equity, and Events departments.</li>
+                                        <li>Worked directly with the School of Computing to better the undergraduate student experience.</li>
+                                    </ul>
+                                    </br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br></br>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="card" style="width: 100%;margin-top: 20px; margin-bottom: 20px;">
+                            <div class="card-body">
+                                <div id="picture">
+                                    <img src="img/logo.png" alt="Computing Students' Association Logo" class="float-left" width="130px">
+                                    <h4>QUEEN'S COMPUTING STUDENTS' ASSOCIATION</h4><em>Equity Director | MAY 2019 - DEC 2019</em>
+                                </div>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Planned and designed training opportunities for the Queen's Computing Students' Association.</li>
+                                        <li>Review all Association-led events to ensure that they are up to accessibility standards.</li>
+                                        <li>Manage bursary funds and allocate bursaries to students.</li>
+                                        <li>Manage Equity Relations Officer and Mental Health Coordinator.</li>
+                                        <li>Ensured hiring equity.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="gall">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="card" style="width: 100%;margin-top: 20px; margin-bottom: 20px;">
+                            <div class="card-body">
+                                <div id="picture">
+                                    <img src="img/ontario.png" alt="Official Onatrio Crest/Coast of Arms" class="float-left" width="130px">
+                                    <h4>LEGISLATIVE ASSEMBLY OF ONTARIO</h4><em>Communications Assistant | MAY 2019 - AUG 2019</em>
+                                </div>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Advise clients on strategies to reach a particular audience.</li>
+                                        <li>Test graphics across various media.</li>
+                                        <li>Ensure final graphics and layouts are visually appealing and on-brand.</li>
+                                        <li>Write invigorating member's statements, to be presented to the House.</li>
+                                        <li>Assisted in creating official Visual Identity Standards.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br></br>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="card" style="width: 100%;height: 90%;margin-top: 20px; margin-bottom: 20px;">
+                            <div class="card-body">
+                                <div id="picture">
+                                    <img src="img/pcc.png" alt="Printing and Copy Centre Logo" class="float-left" width="130px">
+                                    <h4>PRINTING AND COPY CENTRE</h4><em id="pcc">Service Staff | SEPT 2019 - present</em>
+                                </div>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Assisted customers in printing their documents.</li>
+                                        <li>Advised customers on paper types.</li>
+                                        <li>Handled POS duties.</li>
+                                        <li>Handled cash and gave proper change.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="ProjectMenu">
-            <button class="project"> Projects</button>
-            <div class="projectdropdown">
-                <a href="Projects/allprojects.html">All Projects</a>
-                <a href="Projects/currentprojects.html">Current Projects</a>
-                <a href="Projects/pastprojects.html">Past Projects</a>
-            </div>
-        </div>
+        <!-- /#page-content-wrapper -->
+
     </div>
-
 </body>
 
 </html>
