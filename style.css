@@ -176,6 +176,6 @@ h4 {
         margin-left: 15%;
     }
     h2 {
-        text-align: center;
+        text-align: center!important;
     }
 }
