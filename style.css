@@ -75,7 +75,8 @@ h4 {
     margin-right: 5px;
 }
 
-.find #email {
+.find #email,
+.links #email {
     margin-top: 4px;
 }
 
@@ -123,6 +124,12 @@ h4 {
     }
 }
 
+@media only screen and (min-width:416px) {
+    #contact {
+        display: none;
+    }
+}
+
 @media only screen and (max-width:415px) {
     h4 {
         font-size: 17px!important;
@@ -156,5 +163,16 @@ h4 {
     .skills #pyth {
         margin-top: 20px;
         margin-left: 30%;
+    }
+    .links {
+        display: flex;
+        justify-content: center;
+    }
+    .links img {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #headshot {
+        margin-left: 15%;
     }
 }
