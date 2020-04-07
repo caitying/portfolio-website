@@ -122,3 +122,39 @@ h4 {
         margin-left: -15rem;
     }
 }
+
+@media only screen and (max-width:415px) {
+    h4 {
+        font-size: 17px!important;
+    }
+    #page-content-wrapper {
+        min-width: 100vw!important;
+    }
+    .skills {
+        display: block;
+        margin: auto;
+    }
+    .skills #as,
+    .skill #git {
+        margin-left: 10px;
+    }
+    .skills #html {
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    .skills #css {
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    .skills #cc {
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .skills #java {
+        margin-left: 35px;
+    }
+    .skills #pyth {
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+}
