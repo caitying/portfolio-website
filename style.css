@@ -125,8 +125,8 @@ h4 {
 }
 
 @media only screen and (min-width:416px) {
-    #contact {
-        visibility: hidden;
+    .contact {
+        display: none;
     }
 }
 
@@ -174,5 +174,8 @@ h4 {
     }
     #headshot {
         margin-left: 15%;
+    }
+    h2 {
+        text-align: center;
     }
 }
