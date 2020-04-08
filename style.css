@@ -111,6 +111,16 @@ h4 {
     margin-left: 0;
 }
 
+.instagram {
+    display: flex;
+    justify-content: center;
+}
+
+.instagram blockquote {
+    margin-left: 50px!important;
+    margin-right: 50px!important;
+}
+
 @media (min-width: 768px) {
     #sidebar-wrapper {
         margin-left: 0;
