@@ -111,16 +111,6 @@ h4 {
     margin-left: 0;
 }
 
-.instagram {
-    display: flex;
-    justify-content: center;
-}
-
-.instagram blockquote {
-    margin-left: 50px!important;
-    margin-right: 50px!important;
-}
-
 @media (min-width: 768px) {
     #sidebar-wrapper {
         margin-left: 0;
@@ -136,6 +126,22 @@ h4 {
 
 @media only screen and (min-width:416px) {
     .contact {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .large {
+        display: none;
+    }
+    .single-table {
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    .single {
         display: none;
     }
 }
