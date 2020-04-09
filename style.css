@@ -42,8 +42,7 @@ body {
 }
 
 .skills {
-    display: flex;
-    justify-content: center;
+    margin-left: 5%;
 }
 
 .skills img {
@@ -117,11 +116,6 @@ h4 {
 
 #clickh {
     color: #373741!important;
-}
-
-.heads {
-    display: flex;
-    justify-content: center;
 }
 
 @media only screen and (min-width:768px) and (max-width:1200px) {
