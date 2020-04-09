@@ -15,6 +15,10 @@ body {
     letter-spacing: 1px;
 }
 
+a {
+    color: #facfad!important;
+}
+
 .oof {
     padding: 0.875rem 1.25rem;
     color: #373741;
