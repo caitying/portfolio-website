@@ -159,7 +159,7 @@ h4 {
         margin-left: 0;
     }
     #page-content-wrapper {
-        min-width: 0;
+        min-width: 100%;
         width: 100%;
     }
     #wrapper.toggled #sidebar-wrapper {
@@ -239,7 +239,8 @@ h4 {
         font-size: 17px!important;
     }
     #page-content-wrapper {
-        min-width: 100vw!important;
+        min-width: 100%!important;
+        width: 100vw;
     }
     .skills {
         display: block;
