@@ -115,6 +115,40 @@ h4 {
     margin-left: 0;
 }
 
+#clickh {
+    color: #373741!important;
+}
+
+@media only screen and (min-width:768px) and (max-width:1200px) {
+    .skills {
+        display: block;
+        margin: auto;
+    }
+    .skills #as,
+    .skill #git {
+        margin-left: 10px;
+    }
+    .skills #html {
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    .skills #css {
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    .skills #cc {
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .skills #java {
+        margin-left: 35px;
+    }
+    .skills #pyth {
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+}
+
 @media (min-width: 768px) {
     #sidebar-wrapper {
         margin-left: 0;
@@ -128,9 +162,57 @@ h4 {
     }
 }
 
-@media only screen and (min-width:416px) {
+@media only screen and (min-width:767px) {
     .contact {
         display: none;
+    }
+}
+
+@media only screen and (min-width:416px)and (max-width:767px) {
+    .skills {
+        display: block;
+        margin: auto;
+    }
+    .skills #as,
+    .skill #git {
+        margin-left: 10px;
+    }
+    .skills #html {
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    .skills #css {
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    .skills #cc {
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .skills #java {
+        margin-left: 35px;
+    }
+    .skills #pyth {
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .links {
+        display: flex;
+        justify-content: center;
+    }
+    .links img {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #headshot {
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (min-width:416px) and (max-width: 677px) {
+    .skills #pyth {
+        margin-top: 20px;
+        margin-left: 10px;
     }
 }
 
