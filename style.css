@@ -209,6 +209,9 @@ h4 {
         margin-left: 5px;
         margin-right: 5px;
     }
+    #headshot {
+        margin-left: 31%;
+    }
 }
 
 @media only screen and (min-width:416px) and (max-width: 677px) {
