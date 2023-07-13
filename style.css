@@ -10,7 +10,7 @@
 
 body {
     overflow-x: hidden;
-    background-color: #fcf6e5!important;
+    background-color: #FFFFF2!important;
     font-family: Lato!important;
     letter-spacing: 1px;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 #navigation {
-    background-color: #facfad;
+    background-color: #FFFFF2;
 }
 
 h1,
