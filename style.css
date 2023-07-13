@@ -1,6 +1,6 @@
 @font-face {
-    font-family: LeagueSpartan;
-    src: url(Fonts/LeagueSpartan-Bold.otf);
+    font-family: Shrikhand;
+    src: url(Fonts/Shrikhand-Regular.ttf);
 }
 
 @font-face {
@@ -59,7 +59,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: LeagueSpartan;
+    font-family: Shrikhand;
     color: #373741;
     letter-spacing: 2px;
 }
@@ -86,7 +86,7 @@ h4 {
 
 #sidebar-wrapper,
 #thing {
-    background-color: #cce8cc!important;
+    background-color: #FFFFF2!important;
 }
 
 #sidebar-wrapper {
